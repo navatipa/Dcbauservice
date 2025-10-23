@@ -1,5 +1,0 @@
-# robots.txt for DC Bauservice
-User-agent: *
-Allow: /
-
-Sitemap: https://dc-bauservice.one/sitemap.xml
