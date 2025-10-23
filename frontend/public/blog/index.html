@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Blog von DC Bauservice - Tipps zu Baggerarbeiten, Renovierung, Neubau und Bauprojekten in Philippsburg.">
+    <meta name="keywords" content="Baggerfahrer Tipps, Renovierung Blog, Baggermit Guide, Neubau Ratgeber">
+    <title>Blog - Tipps & Ratgeber | DC Bauservice Philippsburg</title>
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="lang-switcher">
+        <button onclick="switchLanguage('de')" id="lang-de" class="active">DE</button>
+        <button onclick="switchLanguage('en')" id="lang-en">EN</button>
+    </div>
+
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-brand">
+                <h2>DC BAUSERVICE</h2>
+            </div>
+            <div class="nav-menu" id="navMenu">
+                <a href="../index.html">Home</a>
+                <a href="../leistungen.html">Leistungen</a>
+                <a href="../baggerarbeiten.html">Baggerarbeiten</a>
+                <a href="../renovierung.html">Renovierung</a>
+                <a href="index.html" class="active">Blog</a>
+                <a href="../jobs.html">Jobs</a>
+                <a href="../kontakt.html">Kontakt</a>
+            </div>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <section class="hero" style="height: 50vh;">
+        <div class="hero-overlay"></div>
+        <div class="hero-image" style="background-image: url('https://images.unsplash.com/photo-1565862452829-e33c0b781ea3?w=1920&q=80');"></div>
+        <div class="container hero-content" data-aos="fade-up">
+            <h1>DC Bauservice Blog</h1>
+            <p class="hero-subtitle">Tipps, Ratgeber und Neuigkeiten zu Baggerarbeiten, Renovierung und Bauprojekten</p>
+        </div>
+    </section>
+
+    <section class="card-section">
+        <div class="container">
+            <div class="blog-grid">
+                <article class="blog-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="blog-image">
+                        <img src="https://images.unsplash.com/photo-1603816885871-c122a9ff8d40?w=700&q=80" alt="Tipps für Baggerfahrer" loading="lazy">
+                    </div>
+                    <div class="blog-content">
+                        <div class="blog-meta">
+                            <span class="blog-date">20. Januar 2025</span>
+                            <span class="blog-category">Baggerfahrer</span>
+                        </div>
+                        <h2>Tipps für Baggerfahrer in der Tiefbau-Saison</h2>
+                        <p>Die wichtigsten Tipps und Tricks für erfolgreiche Baggerarbeiten im Tiefbau. Von der richtigen Maschinenwahl bis zur Sicherheit auf der Baustelle - alles was professionelle Baggerfahrer wissen müssen.</p>
+                        <a href="baggerfahrer-tipps.html" class="btn-primary">Weiterlesen</a>
+                    </div>
+                </article>
+
+                <article class="blog-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="blog-image">
+                        <img src="https://images.unsplash.com/photo-1634586648651-f1fb9ec10d90?w=700&q=80" alt="Renovierung vs Neubau" loading="lazy">
+                    </div>
+                    <div class="blog-content">
+                        <div class="blog-meta">
+                            <span class="blog-date">18. Januar 2025</span>
+                            <span class="blog-category">Renovierung</span>
+                        </div>
+                        <h2>Renovierung vs. Neubau – Was ist die bessere Wahl?</h2>
+                        <p>Soll ich mein Haus sanieren oder neu bauen? Wir vergleichen Kosten, Zeit und Aufwand beider Optionen und helfen Ihnen bei der richtigen Entscheidung für Ihr Bauvorhaben.</p>
+                        <a href="renovierung-vs-neubau.html" class="btn-primary">Weiterlesen</a>
+                    </div>
+                </article>
+
+                <article class="blog-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="blog-image">
+                        <img src="https://images.pexels.com/photos/1078884/pexels-photo-1078884.jpeg?w=700&q=80" alt="Baggermiten und Renovierungshelfer" loading="lazy">
+                    </div>
+                    <div class="blog-content">
+                        <div class="blog-meta">
+                            <span class="blog-date">15. Januar 2025</span>
+                            <span class="blog-category">Baggermit</span>
+                        </div>
+                        <h2>Wie Baggermiten und Renovierungshelfer den Bau beschleunigen</h2>
+                        <p>Erfahren Sie, wie die richtige Baggermit-Auswahl und professionelle Renovierungshelfer Ihr Bauprojekt effizienter und kostengünstiger machen können.</p>
+                        <a href="baggermiten-guide.html" class="btn-primary">Weiterlesen</a>
+                    </div>
+                </article>
+
+                <article class="blog-card" data-aos="fade-up" data-aos-delay="400">
+                    <div class="blog-image">
+                        <img src="https://images.unsplash.com/photo-1505798577917-a65157d3320a?w=700&q=80" alt="DC Bauservice Partner" loading="lazy">
+                    </div>
+                    <div class="blog-content">
+                        <div class="blog-meta">
+                            <span class="blog-date">12. Januar 2025</span>
+                            <span class="blog-category">Unternehmen</span>
+                        </div>
+                        <h2>Warum DC Bauservice der richtige Partner für Ihr Bauprojekt ist</h2>
+                        <p>Entdecken Sie die Vorteile einer Zusammenarbeit mit DC Bauservice: Erfahrene Baggerfahrer, moderne Technik und Komplettservice aus einer Hand für Philippsburg und Region.</p>
+                        <a href="dc-bauservice-partner.html" class="btn-primary">Weiterlesen</a>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <section class="cta-section">
+        <div class="container" data-aos="zoom-in">
+            <h2>Haben Sie Fragen zu Ihrem Bauprojekt?</h2>
+            <p>Kontaktieren Sie uns für eine kostenlose Beratung!</p>
+            <a href="../kontakt.html" class="btn-primary">Jetzt Kontakt aufnehmen</a>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <h3>DC Bauservice</h3>
+                    <p>Danijel Cukovic – Geschäftsführer</p>
+                    <p>Alte Kirchen Straße 4</p>
+                    <p>76661 Philippsburg</p>
+                </div>
+                <div class="footer-col">
+                    <h3>Kontakt</h3>
+                    <p>Telefon: <a href="tel:+4917683426932">+49 176 83426932</a></p>
+                    <p>E-Mail: <a href="mailto:dc@bauservice.one">dc@bauservice.one</a></p>
+                    <p><a href="https://wa.me/4917683426932" target="_blank">WhatsApp Chat</a></p>
+                </div>
+                <div class="footer-col">
+                    <h3>Links</h3>
+                    <p><a href="../leistungen.html">Leistungen</a></p>
+                    <p><a href="index.html">Blog</a></p>
+                    <p><a href="../jobs.html">Jobs</a></p>
+                    <p><a href="../kontakt.html">Kontakt</a></p>
+                    <p><a href="../impressum.html">Impressum</a></p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 DC Bauservice. Alle Rechte vorbehalten.</p>
+            </div>
+        </div>
+    </footer>
+
+    <a href="https://wa.me/4917683426932" class="whatsapp-float" target="_blank" aria-label="WhatsApp Kontakt">
+        <svg viewBox="0 0 32 32" fill="white" width="32" height="32">
+            <path d="M16 0c-8.837 0-16 7.163-16 16 0 2.825 0.737 5.607 2.137 8.048l-2.137 7.952 7.933-2.127c2.42 1.37 5.173 2.127 8.067 2.127 8.837 0 16-7.163 16-16s-7.163-16-16-16zM16 29.467c-2.482 0-4.908-0.646-7.07-1.87l-0.507-0.292-4.713 1.262 1.262-4.669-0.292-0.508c-1.207-2.100-1.847-4.507-1.847-6.923 0-7.435 6.050-13.485 13.485-13.485s13.485 6.050 13.485 13.485c0 7.435-6.050 13.485-13.485 13.485zM21.960 18.277c-0.293-0.146-1.733-0.854-2.001-0.951-0.267-0.098-0.462-0.146-0.657 0.146s-0.755 0.951-0.926 1.146c-0.171 0.195-0.341 0.22-0.634 0.073-1.474-0.737-2.442-1.316-3.415-2.985-0.257-0.439 0.257-0.408 0.736-1.359 0.080-0.195 0.040-0.365-0.020-0.511-0.061-0.146-0.657-1.582-0.900-2.166-0.236-0.568-0.476-0.491-0.657-0.5-0.17-0.008-0.365-0.010-0.56-0.010s-0.511 0.073-0.779 0.365c-0.267 0.293-1.021 0.998-1.021 2.434s1.045 2.823 1.191 3.018c0.146 0.195 2.064 3.149 5.003 4.417 1.865 0.804 2.596 0.878 3.527 0.74 0.565-0.085 1.733-0.708 1.977-1.393s0.244-1.270 0.171-1.393c-0.073-0.122-0.268-0.195-0.561-0.341z"></path>
+        </svg>
+    </a>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="../js/main.js"></script>
+</body>
+</html>
