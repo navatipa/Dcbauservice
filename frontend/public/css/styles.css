@@ -574,4 +574,9 @@ img {
     .lang-switcher {
         top: 75px;
     }
+    
+    /* Make image-text sections stack on mobile */
+    div[style*="grid-template-columns:1fr 1fr"] {
+        grid-template-columns: 1fr !important;
+    }
 }
