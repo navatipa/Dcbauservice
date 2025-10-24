@@ -1,0 +1,26 @@
+/* Simple responsive styling for preview */
+:root{
+  --brand:#0b6b50;
+  --muted:#666;
+  --bg:#f7f7f7;
+  --maxw:980px;
+  font-size:16px;
+  font-family:system-ui,-apple-system,Segoe UI,Roboto,"Helvetica Neue",Arial;
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:#222;line-height:1.45}
+.container{max-width:var(--maxw);margin:0 auto;padding:20px}
+.site-header{background:#fff;border-bottom:1px solid #e6e6e6}
+.site-header .container{display:flex;align-items:center;justify-content:space-between}
+.logo a{color:var(--brand);text-decoration:none;font-weight:700;font-size:1.1rem}
+nav a{color:var(--muted);text-decoration:none;margin-left:16px}
+nav a[aria-current="page"]{color:#111;font-weight:600}
+.hero{background:#fff;padding:36px;margin:20px 0;border-radius:8px;box-shadow:0 1px 4px rgba(0,0,0,0.04)}
+.hero h2{margin-top:0;color:var(--brand)}
+.cta{display:inline-block;padding:10px 16px;background:var(--brand);color:#fff;border-radius:6px;text-decoration:none}
+.features{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:16px;margin:20px 0}
+.features article{background:#fff;padding:16px;border-radius:8px;border:1px solid #eee}
+.site-footer{padding:18px 0;text-align:center;color:var(--muted);font-size:0.95rem}
+form input, form textarea{width:100%;padding:8px;border:1px solid #ddd;border-radius:4px;margin-top:6px}
+button{background:var(--brand);color:#fff;border:none;padding:10px 14px;border-radius:6px;cursor:pointer}
+@media (max-width:600px){.site-header .container{flex-direction:column;align-items:flex-start}nav{margin-top:8px}}
